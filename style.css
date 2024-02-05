@@ -48,6 +48,46 @@ nav a:active {
     color: deeppink;
 }
 
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ /*CSS pagina Home*/
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+    clear: left;
+}
+
+.principal p {
+    margin: 1rem 0;
+}
+
+.principal strong {
+    font-weight: 700;
+}
+
+.androide {
+    width: 200px;
+    float: left;
+    margin: 0 1rem;
+}
+
+.imagenDiferenciadores {
+    width: 60%;
+}
+
+
+
+
+
+/*CSS pagina Productos*/
 .productos {
     width: 90%;
     margin: 0 auto;
@@ -99,6 +139,7 @@ nav a:active {
     font-weight: 800;
 }
 
+/*CSS footer*/
 footer {
     background: url(img/bg.jpg);
     color: #fff;
@@ -115,11 +156,7 @@ footer img {
     font-weight: 700;
 }
 
-main {
-    width: 90%;
-    margin: 0 auto;
-}
-
+/*CSS pagina Contacto*/
 form {
     margin: 2rem 0;
 }
