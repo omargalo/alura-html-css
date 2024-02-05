@@ -12,7 +12,7 @@
 
     <header>
         <div class="caja">
-            <h1><img class="logo" src="img/logoWhite.svg"></h1>
+            <h1><img class="logo" src="img/logoWhite.svg" alt="logotipo ogadevs"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -26,34 +26,34 @@
     <main>
         <form action="">
             <label for="nombreApellido">Nombre y Apellido:</label>
-            <input class="input-padron" id="nombreApellido" type="text" placeholder="Escribe aqui tu nombre...">
+            <input class="input-padron" id="nombreApellido" type="text" placeholder="Escribe aqui tu nombre..." required>
             <label for="correoElectronico">Email:</label>
-            <input class="input-padron" id="correoElectronico" type="text" placeholder="tu@ejemplo.com">
+            <input class="input-padron" id="correoElectronico" type="email" placeholder="yo@example.com" required>
             <label for="telefono">Teléfono:</label>
-            <input class="input-padron" id="telefono" type="text" placeholder="(123)456-7890">
+            <input class="input-padron" id="telefono" type="tel" placeholder="(123)456-7890">
 
             <label for="mensaje">Mensaje:</label>
-            <textarea class="input-padron" id="mensaje" cols="50" rows="10"></textarea>
+            <textarea class="input-padron" id="mensaje" cols="50" rows="10" required></textarea>
 
-            <div>
-                <p>¿Cómo le gustaria ser contactado?</p>
+            <fieldset>
+                <legend>¿Cómo le gustaria ser contactado?</legend>
                 <label for="radio-email"><input id="radio-email" type="radio" name="contacto" value="email">Email</label>
 
                 <label for="radio-telefono"><input id="radio-telefono" type="radio" name="contacto" value="telefono">Teléfono</label>
 
-                <label for="radio-whatsapp"><input id="radio-whatsapp" type="radio" name="contacto" value="whatsapp">WhatsApp</label>
-            </div>
+                <label for="radio-whatsapp"><input id="radio-whatsapp" type="radio" name="contacto" value="whatsapp" checked>WhatsApp</label>
+            </fieldset>
 
-            <div>
-                <p>¿En qué horario desea ser atendido?</p>
+            <fieldset>
+                <legend>¿En qué horario desea ser atendido?</legend>
                 <select>
                     <option>Mañana</option>
                     <option>Tarde</option>
                     <option>Noche</option>
                 </select>
-            </div>
+            </fieldset>
 
-            <label class="checkbox"><input type="checkbox" name="" id="">¿Le gustaria recibir novedades de nuestros servicios?</label>
+            <label class="checkbox"><input type="checkbox" name="" id="" checked>¿Le gustaria recibir novedades de nuestros servicios?</label>
 
             <input type="submit" value="Enviar">
 
@@ -62,7 +62,7 @@
 
     <footer>
         <div class="caja-footer">
-            <img src="img/logoWhite.svg" alt="">
+            <img src="img/logoWhite.svg" alt="logotivo ogadevs">
             <p class="copyright">OGADEVS | Code Crafters</p>
             <p class="copyright">&copy 2024 OGADEVS. All rights reserved.</p>
         </div>
