@@ -1,6 +1,5 @@
 body {
     font-family: 'Source Code Pro', monospace;
-    background-color: #f0f0f0;
     margin: 0;
 }
 
@@ -68,6 +67,14 @@ nav a:active {
     clear: left;
 }
 
+.titulo-principal::before {
+    content: "{";
+}
+
+.titulo-principal::after {
+    content: "}";
+}
+
 .principal p {
     margin: 1em 0;
     color: #fff;
@@ -103,19 +110,25 @@ nav a:active {
 
 .contenido-diferenciadores{
     color: #fff;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .lista-diferenciadores {
-    width: 20%;
-    padding: 1em;
+    width: 30%;
+    padding: 2em;
     display: inline-block;
     vertical-align: top;
 }
 
 .items {
     line-height: 2em;
+    list-style: none;
+}
+
+.items::before {
+    content: "\2726";
+    padding: 7px;
 }
 
 .items:first-child {
