@@ -162,3 +162,21 @@ form fieldset {
     background: dodgerblue;
     transform: scale(1.1);
 }
+
+table {
+    width: 30%;
+    margin: 2rem 2rem;
+}
+
+thead {
+    background: deepskyblue;
+    color: #fff;
+    font-weight: 700;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #f0f0f0;
+}
