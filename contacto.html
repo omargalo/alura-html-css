@@ -26,11 +26,25 @@
     <main>
         <form action="">
             <label for="nombreApellido">Nombre y Apellido:</label>
-            <input id="nombreApellido" type="text" placeholder="Escribe aqui tu nombre...">
+            <input class="input-padron" id="nombreApellido" type="text" placeholder="Escribe aqui tu nombre...">
             <label for="correoElectronico">Email:</label>
-            <input id="correoElectronico" type="text" placeholder="tu@ejemplo.com">
+            <input class="input-padron" id="correoElectronico" type="text" placeholder="tu@ejemplo.com">
             <label for="telefono">Teléfono:</label>
-            <input id="telefono" type="text" placeholder="(123)456-7890">
+            <input class="input-padron" id="telefono" type="text" placeholder="(123)456-7890">
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="input-padron" id="mensaje" cols="50" rows="10"></textarea>
+
+            <div>
+                <p>¿Cómo le gustaria ser contactado?</p>
+                <label for="radio-email"><input id="radio-email" type="radio" name="contacto" value="email">Email</label>
+
+                <label for="radio-telefono"><input id="radio-telefono" type="radio" name="contacto" value="telefono">Teléfono</label>
+
+                <label for="radio-whatsapp"><input id="radio-whatsapp" type="radio" name="contacto" value="whatsapp">WhatsApp</label>
+            </div>
+
+            <label class="checkbox"><input type="checkbox" name="" id="">¿Le gustaria recibir novedades de nuestros servicios?</label>
 
             <input type="submit" value="Enviar">
 

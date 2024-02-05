@@ -123,14 +123,18 @@ form {
     margin: 2rem 0;
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 1.4rem;
 }
 
-form input {
+.input-padron {
     display: block;
     margin: 1rem 0;
     padding: 10px 10px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 1rem 0;
 }
