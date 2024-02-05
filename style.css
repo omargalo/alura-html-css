@@ -59,11 +59,11 @@ nav a:active {
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px;
+    padding: 10px;
     box-sizing: border-box;
     border-color: #f0f0f0;
     border: 3px solid #0C0C0C;
-    border-radius: 12px;
+    border-radius: 24px;
 }
 
 .productos li:hover {
@@ -112,4 +112,25 @@ footer img {
 .copyright {
     font-size: 1rem;
     font-weight: 700;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    margin: 2rem 0;
+}
+
+form label {
+    display: block;
+    font-size: 1.4rem;
+}
+
+form input {
+    display: block;
+    margin: 1rem 0;
+    padding: 10px 10px;
+    width: 50%;
 }
